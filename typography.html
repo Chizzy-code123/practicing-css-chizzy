@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>External CSS</title>
+    <!-- <link rel="stylesheet" href="stylesheets/styles.css" /> -->
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap");
+      body {
+        background-color: #9ffa75;
+      }
+
+      h1 {
+        text-align: right;
+        font-family: "Permanent Marker", cursive;
+        color: #003251;
+      }
+
+      p {
+        font-size: 20px;
+        font-weight: bold;
+        text-decoration: underline;
+        text-decoration: dashed;
+      }
+
+      .styled-by-id {
+        font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+        font-weight: bold;
+      }
+
+      ul {
+        list-style-type: none;
+      }
+
+      li {
+        margin: 10px;
+        font-size: 20px;
+        display: inline-block;
+      }
+
+      .nav-link {
+        padding: 5px;
+        margin: 4px;
+        border: 2px solid #000000;
+        background-color: #191970;
+        color: #f5f5ff;
+      }
+
+      div {
+        background-color: ghostwhite;
+        height: 180px;
+        width: auto;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a class="nav-link" href="index.html">Home Page</a></li>
+          <li><a class="nav-link" href="internal-css.html">Internal CSS</a></li>
+          <li><a class="nav-link" href="external-css.html">External CSS</a></li>
+          <li>
+            <a class="nav-link" href="testing-cascading.html"
+              >Testing Cascading</a
+            >
+          </li>
+          <li>
+            <a class="nav-link" href="classes-and-ids.html">Classes and IDs</a>
+          </li>
+          <li>
+            <a class="nav-link" href="div-and-span.html"
+              ><span style="font-style: italic">Div</span> and Span</a
+            >
+          </li>
+          <li>
+            <a class="nav-link" href="backgrounds-and-text.html"
+              >Backgrounds and Text</a
+            >
+          </li>
+        </ul>
+      </nav>
+      <h1 style="text-align: center; font-size: 40px">Typography Principles</h1>
+    </header>
+
+    <main>
+      <div>
+        <p id="styled-by-id">
+          This paragraph will show the effect of giving an element an ID and
+          <span style="background-color: beige; font-style: italic"
+            >styling that ID.</span
+          >
+        </p>
+      </div>
+
+      <h2>Chizzy</h2>
+      <div>
+        <p>
+          We use external CSS to separate the content of a webpage (HTML) from
+          its presentation (CSS).
+        </p>
+      </div>
+
+      <div>
+        <p>
+          This separation allows for easier maintenance, as styles can be
+          updated in one place without having to modify individual HTML files.
+          It also makes styling across multiple pages consistent and efficient.
+        </p>
+      </div>
+
+      <h3>Benefits of External CSS</h3>
+      <ol>
+        <li>Easier maintenance</li>
+        <li>Improved load times</li>
+        <li>Better organization</li>
+        <li>Reusability of styles</li>
+      </ol>
+    </main>
+  </body>
+</html>

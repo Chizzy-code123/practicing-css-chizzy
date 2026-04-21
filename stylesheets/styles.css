@@ -1,0 +1,18 @@
+h1 {
+  color: #8a2be2;
+  background-color: #000000;
+  text-shadow: #006400;
+  margin: 1%;
+  -webkit-text-stroke: 0.5px #ffffff;
+  border: #2400d8 2px dashed;
+  padding: 10px;
+}
+
+p {
+  color: #ffffff;
+  background-color: #000000;
+  margin: 1%;
+  position: static;
+  left: 1px;
+  text-align: left;
+}

@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Internal CSS</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Style+Script&display=swap"
+      rel="stylesheet" />
+    <link rel="stylesheet" href="stylesheets/nav-styles.css" />
+
+    <style>
+      body {
+        background-color: #b4ddff;
+        color: #225af4;
+      }
+
+      h1 {
+        text-align: center;
+        font-size: 40px;
+        background-color: #518fe4;
+      }
+
+      h2 {
+        text-align: center;
+        color: darkmagenta;
+        background-color: khaki;
+        font-style: italic;
+      }
+
+      p {
+        font-family: "Archivo Black", sans-serif;
+        font-size: 24px;
+        background-color: bisque;
+        border-radius: 10%;
+        outline: 5px solid #000a1a;
+        color: indigo;
+        font-weight: bolder;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home Page</a></li>
+          <li><a href="internal-css.html">Internal CSS</a></li>
+          <li><a href="external-css.html">External CSS</a></li>
+          <li><a href="testing-cascading.html">Testing Cascading</a></li>
+          <li><a href="classes-and-ids.html">Classes and IDs</a></li>
+          <li>
+            <a class="nav-link" href="div-and-span.html">Div and Span</a>
+          </li>
+          <li>
+            <a class="nav-link" href="backgrounds-and-text.html"
+              >Backgrounds and Text</a
+            >
+          </li>
+        </ul>
+      </nav>
+      <h1>Internal CSS</h1>
+    </header>
+
+    <h2>Web Development</h2>
+    <!-- 
+      In this p tag, I us ethe span tag to change the font size a specific word
+      and i change the font-family of another word.
+      The span tag is an inline element that allows you to apply styles to a specific
+      part of the text within a block-level element like a paragraph.
+    -->
+    <p>
+      My favorite <span style="font-size: 60px">part</span> in web development
+      is learning how to make a website in
+      <span style="font-family: &quot;Style Script&quot;, cursive"
+        ><i>vscode</i></span
+      >, learning how to use HTML and CSS and making things myself.
+    </p>
+    <p>
+      My least favorite part in web dev is probably learning how to research
+      tags because it can get confusing at times.
+    </p>
+    <h2>PC Hardware</h2>
+    <p>
+      My favorite part in PC Hardware is learning about input and output
+      devices.
+    </p>
+    <p>My least favorite part is sitting down and doing nothing for an hour.</p>
+
+    <p>This paragraph shows the effects of adding internal CSS to HTML tags.</p>
+
+    <p>Hi my name is Chizzy!</p>
+
+    <p>
+      <u>The name of this class is called Web Development.</u>
+    </p>
+  </body>
+</html>
