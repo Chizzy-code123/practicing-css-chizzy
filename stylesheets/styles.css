@@ -1,3 +1,7 @@
+body {
+  margin: 5% 10%;
+}
+
 h1 {
   color: #8a2be2;
   background-color: #000000;
@@ -15,4 +19,12 @@ p {
   position: static;
   left: 1px;
   text-align: left;
+}
+
+.nav-link {
+  padding: 5px;
+  margin: 4px;
+  border: 2px solid #000000;
+  background-color: #191970;
+  color: #f5f5ff;
 }
