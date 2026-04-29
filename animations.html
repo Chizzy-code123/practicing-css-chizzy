@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Animations</title>
+    <style>
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      p {
+        padding: 16px;
+        background-color: blueviolet;
+        display: inline;
+        border-radius: 8px;
+
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        animation: moveToRight 1s forwards;
+      }
+
+      @keyframes moveToRight {
+        from {
+          /* Start at center, normal size */
+          transform: translate(-50%, -50%) scale(1);
+        }
+        to {
+          right: 100%;
+          transform: translate(100%, -50%) scale(1.2);
+          background-color: darkorchid;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <p>Hi</p>
+  </body>
+</html>
